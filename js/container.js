@@ -1,14 +1,13 @@
 reversedNumber = () => {
-  let userNunber = 123456789;
+  let userNumber = 123456789;
+  let lastNumber;
+  let resultNumber = "";
 
-  if (userNunber > 0) {
-    let lastNunber = "";
-    var resultNumber = "";
-
-    while (userNunber > 0) {
-      lastNunber = userNunber % 10;
-      userNunber = Math.floor(userNunber / 10);
-      resultNumber += lastNunber;
+  if (userNumber > 0) {
+    while (userNumber > 0) {
+      lastNumber = userNumber % 10;
+      userNumber = Math.floor(userNumber / 10);
+      resultNumber += lastNumber;
     }
   } else {
     console.log("Is not valid nmber");
