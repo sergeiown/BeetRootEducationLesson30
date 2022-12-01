@@ -1,18 +1,14 @@
-reversedNumber = () => {
-  let userNumber = 123456789;
-  let lastNumber;
-  let resultNumber = "";
+import { addition } from "./minimum.js";
 
-  if (userNumber > 0) {
-    while (userNumber > 0) {
-      lastNumber = userNumber % 10;
-      userNumber = Math.floor(userNumber / 10);
-      resultNumber += lastNumber;
-    }
-  } else {
-    console.log("Is not valid nmber");
-  }
-  return resultNumber;
-};
+// import * as minimum from "./minimum.js";
+// import * as normal from "./normal.js";
+// import * as maximum from "./maximum.js";
 
-console.log(reversedNumber());
+// let firstNumber = document.querySelector("#first-number").value;
+// let secondNumber = document.querySelector("#second-number").value;
+document
+  .querySelector(".addition")
+  .addEventListener("change", addition(0.1, 0.2));
+
+alert(addition.resultNumber);
+// document.querySelector("#result").innerHTML = `<p>Your change is dollars.</p>`;
