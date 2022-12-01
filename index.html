@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="./js/container.js"></script>
+    <script type="module" src="./js/container.js"></script>
     <title>JS data types</title>
   </head>
   <body>
     <div class="addition">
-      <label for="first-number">Input fractional number</label>
+      <h1>Input two fractional numbers and press Enter</h1>
+      <label for="first-number">The first number</label>
       <input id="first-number" type="text" placeholder="0.1" />
-      <label for="second-number">Input another fractional number</label>
+      <label for="second-number">The second number</label>
       <input id="second-number" type="text" placeholder="0.2" />
-      <p id="result">The result of the addition is: ...</p>
+      <p>
+        The result of the addition is:
+        <span id="result"> in progress ...</span>
+      </p>
     </div>
     <div class="container"></div>
     <div class="container"></div>

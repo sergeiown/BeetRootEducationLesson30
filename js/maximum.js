@@ -1,4 +1,4 @@
-calculateIncome = (depositTerm, clientAmount) => {
+let calculateIncome = (depositTerm, clientAmount) => {
   const invalidNumber = "Your value is not a valid number.";
   const bankPercent = 5;
 
@@ -15,7 +15,7 @@ calculateIncome = (depositTerm, clientAmount) => {
 
 // console.log(calculateIncome(6, 1000));
 
-expressionResult = () => {
+let expressionResult = () => {
   return {
     first: 2 && 0 && 3,
     second: 2 || 0 || 3,
@@ -25,4 +25,4 @@ expressionResult = () => {
 
 // console.log(expressionResult());
 
-export { calculateIncome, expressionResult };
+// export { calculateIncome, expressionResult };

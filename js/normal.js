@@ -1,4 +1,4 @@
-reversedNumber = (userNumber) => {
+let reversedNumber = (userNumber) => {
   let lastNumber;
   let resultNumber = "";
   const invalidNumber = "Your value is not a valid number.";
@@ -19,7 +19,7 @@ reversedNumber = (userNumber) => {
 
 // console.log(reversedNumber("fxsdjgg"));
 
-numberOfChocolates = (amount, price) => {
+let numberOfChocolates = (amount, price) => {
   const invalidNumber = "Your value is not a valid number.";
 
   if (amount > 0 && price > 0) {
@@ -36,4 +36,4 @@ numberOfChocolates = (amount, price) => {
 
 // console.log(numberOfChocolates(499, 50));
 
-export { reversedNumber, numberOfChocolates };
+// export { reversedNumber, numberOfChocolates };
