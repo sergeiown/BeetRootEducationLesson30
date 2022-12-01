@@ -9,19 +9,77 @@
   </head>
   <body>
     <div class="addition">
-      <h1>Input two fractional numbers and press Enter</h1>
-      <label for="first-number">The first number</label>
-      <input id="first-number" type="text" placeholder="0.1" />
-      <label for="second-number">The second number</label>
-      <input id="second-number" type="text" placeholder="0.2" />
+      <h1>Input two fractional numbers greater than 0 and press Enter</h1>
+      <p>The first number</p>
+      <input class="first-number" type="text" placeholder="for example: 0.1" />
+      <p>The second number</p>
+      <input class="second-number" type="text" placeholder="for example: 0.2" />
       <p>
-        The result of the addition is:
-        <span id="result"> in progress ...</span>
+        The result of the addition is
+        <span class="addition-result"> in progress ...</span>
       </p>
     </div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
+
+    <div class="reversed-number">
+      <h1>Input random number greater than 0 and press Enter</h1>
+      <p>Random number</p>
+      <input class="user-number" type="text" placeholder="for example: 12345" />
+      <p>
+        The result of the reversal action is
+        <span class="reversal-result"> in progress ...</span>
+      </p>
+    </div>
+
+    <div class="chocolate">
+      <h1>Input amount in your wallet, one chocolate price and press Enter</h1>
+      <p>Amount in your wallet</p>
+      <input class="amount" type="number" placeholder="for example: 100" />
+      <p>One chocolate price</p>
+      <input class="price" type="number" placeholder="for example: 5" />
+      <p>
+        Chocolates quantity you can buy is
+        <span class="quantity-result"> not calculated yet ...</span>
+      </p>
+      <p>
+        and your rest is
+        <span class="rest-result"> not calculated yet ...</span>
+      </p>
+    </div>
+
+    <div class="income-calculator">
+      <h1>Input enter the deposit amount and term in months</h1>
+      <p>Deposit Amount</p>
+      <input
+        class="deposit-amount"
+        type="number"
+        placeholder="for example: 1000"
+      />
+      <p>Deposit term from 1 to 12 months</p>
+      <input
+        class="deposit-term"
+        type="range"
+        min="1"
+        max="12"
+        value="1"
+        step="1"
+      />
+      <p>
+        Income from the deposit at 5 percent per annum
+        <span class="income-result"> not calculated yet ...</span>
+      </p>
+    </div>
+
+    <div class="expression">
+      <h1>
+        If you want to know the result of futher expressions - click the button
+        below
+      </h1>
+
+      <p>"2 && 0 && 3"<span class="first-result"> result is ...</span></p>
+      <p>"2 || 0 || 3"<span class="second-result"> result is ...</span></p>
+      <p>"2 && 0 || 3"<span class="third-result"> result is ...</span></p>
+
+      <button class="expression-result">Show result!</button>
+    </div>
   </body>
 </html>

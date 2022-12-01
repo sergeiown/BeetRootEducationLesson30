@@ -1,12 +1,13 @@
 let calculateIncome = (depositTerm, clientAmount) => {
-  const invalidNumber = "Your value is not a valid number.";
+  const invalidNumber =
+    "uncnown because the amount value is not a valid number.";
   const bankPercent = 5;
 
   if (clientAmount > 0) {
-    const interestAccrued = (
+    const interestAccrued = `${(
       ((clientAmount * bankPercent) / 100 / 12) *
       depositTerm
-    ).toFixed(2);
+    ).toFixed(2)} USD`;
     return interestAccrued;
   } else {
     return invalidNumber;
@@ -25,4 +26,4 @@ let expressionResult = () => {
 
 // console.log(expressionResult());
 
-// export { calculateIncome, expressionResult };
+export { calculateIncome, expressionResult };

@@ -1,7 +1,7 @@
 let reversedNumber = (userNumber) => {
   let lastNumber;
   let resultNumber = "";
-  const invalidNumber = "Your value is not a valid number.";
+  const invalidNumber = "the value entered is not a valid number.";
 
   if (userNumber > 0) {
     while (userNumber > 0) {
@@ -10,21 +10,17 @@ let reversedNumber = (userNumber) => {
       resultNumber += lastNumber;
     }
   } else {
-    // console.log(typeof userNumber);
     return invalidNumber;
   }
-  // console.log(typeof userNumber);
   return resultNumber;
 };
 
-// console.log(reversedNumber("fxsdjgg"));
-
 let numberOfChocolates = (amount, price) => {
-  const invalidNumber = "Your value is not a valid number.";
+  const invalidNumber = "because of incorrect number input!";
 
   if (amount > 0 && price > 0) {
     const chocolateQuantity = Math.floor(amount / price);
-    const restAmount = amount % price;
+    const restAmount = (amount % price).toFixed(2);
     return {
       chocolateQuantity: chocolateQuantity,
       restAmount: restAmount,
@@ -34,6 +30,4 @@ let numberOfChocolates = (amount, price) => {
   }
 };
 
-// console.log(numberOfChocolates(499, 50));
-
-// export { reversedNumber, numberOfChocolates };
+export { reversedNumber, numberOfChocolates };
