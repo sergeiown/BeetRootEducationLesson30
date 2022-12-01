@@ -48,14 +48,15 @@ html {
       }
 
       input {
-        padding: 0 0 0 0.5rem;
+        padding: 0.3rem 0.5rem;
         border: 1px solid #ccc;
         border-radius: 0.2rem;
         box-shadow: 0.1rem 0.1rem 0.1rem #ccc;
       }
 
       button {
-        padding: 0.2rem 0;
+        color: inherit;
+        padding: 0.3rem 0;
         border: 1px solid #000;
         border-radius: 0.2rem;
         background-color: #ccc;
