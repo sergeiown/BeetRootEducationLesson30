@@ -32,11 +32,13 @@ html {
       }
 
       p {
-        display: block;
+        display: flex;
+        flex-direction: column;
         text-align: center;
       }
 
       p.result {
+        display: block;
         text-align: left;
         padding: 0 0.3rem;
         background-color: #f0f0f0;
