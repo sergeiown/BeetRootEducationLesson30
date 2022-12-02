@@ -64,17 +64,17 @@ const expressionResultInfo = () => {
 };
 
 // events listeners
-document.querySelector(".addition").addEventListener("change", additionTask);
+document.querySelector(".addition").addEventListener("input", additionTask);
 
 document
   .querySelector(".reversed-number")
-  .addEventListener("change", reversalTask);
+  .addEventListener("input", reversalTask);
 
-document.querySelector(".chocolate").addEventListener("change", chocolatesTask);
+document.querySelector(".chocolate").addEventListener("input", chocolatesTask);
 
 document
   .querySelector(".income-calculator")
-  .addEventListener("change", incomeCalc);
+  .addEventListener("input", incomeCalc);
 
 document
   .querySelector(".expression")
