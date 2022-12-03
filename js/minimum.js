@@ -1,5 +1,6 @@
 let addition = (firstNumber, secondNumber) => {
-  const invalidNumber = "one of the values entered is not a valid number.";
+  const invalidNumber =
+    "not calculated because one of the values is not a valid number.";
 
   if (firstNumber > 0 && secondNumber > 0) {
     const resultNumber = (firstNumber + secondNumber).toFixed(1);

@@ -4,56 +4,103 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./css/index.css" />
     <script type="module" src="./js/container.js"></script>
     <title>JS data types</title>
   </head>
   <body>
     <div class="addition">
-      <h1>Input two fractional numbers greater than 0 and press Enter</h1>
-      <p>The first number</p>
-      <input class="first-number" type="text" placeholder="for example: 0.1" />
-      <p>The second number</p>
-      <input class="second-number" type="text" placeholder="for example: 0.2" />
+      <h2>Input two fractional numbers greater than 0 and press Enter</h2>
       <p>
+        The first number
+        <input
+          class="first-number"
+          type="text"
+          placeholder="for example: 0.1"
+        />
+      </p>
+      <p>
+        The second number
+        <input
+          class="second-number"
+          type="text"
+          placeholder="for example: 0.2"
+        />
+      </p>
+      <p class="result">
         The result of the addition is
         <span class="addition-result"> in progress ...</span>
       </p>
     </div>
 
     <div class="reversed-number">
-      <h1>Input random number greater than 0 and press Enter</h1>
-      <p>Random number</p>
-      <input class="user-number" type="text" placeholder="for example: 12345" />
+      <h2>Input random number greater than 0 and press Enter</h2>
       <p>
+        Random number
+        <input
+          class="user-number"
+          type="text"
+          placeholder="for example: 12345"
+        />
+      </p>
+
+      <p class="result">
         The result of the reversal action is
         <span class="reversal-result"> in progress ...</span>
       </p>
     </div>
 
     <div class="chocolate">
-      <h1>Input amount in your wallet, one chocolate price and press Enter</h1>
-      <p>Amount in your wallet</p>
-      <input class="amount" type="number" placeholder="for example: 100" />
-      <p>One chocolate price</p>
-      <input class="price" type="number" placeholder="for example: 5" />
+      <h2>Input amount in your wallet, one chocolate price and press Enter</h2>
       <p>
+        Amount in your wallet
+        <input class="amount" type="number" placeholder="for example: 100" />
+      </p>
+
+      <p>
+        One chocolate price
+        <input class="price" type="number" placeholder="for example: 5" />
+      </p>
+
+      <p class="result">
         Chocolates quantity you can buy is
         <span class="quantity-result"> not calculated yet ...</span>
       </p>
-      <p>
+      <p class="result">
         and your rest is
         <span class="rest-result"> not calculated yet ...</span>
       </p>
     </div>
 
     <div class="income-calculator">
-      <h1>Input enter the deposit amount and term in months</h1>
-      <p>Deposit Amount</p>
-      <input
-        class="deposit-amount"
-        type="number"
-        placeholder="for example: 1000"
-      />
+      <h2>Input the deposit amount and term in months</h2>
+      <p>
+        Deposit Amount
+        <input
+          class="deposit-amount"
+          type="number"
+          placeholder="for example: 1000"
+        />
+      </p>
+
       <p>Deposit term from 1 to 12 months</p>
       <input
         class="deposit-term"
@@ -63,17 +110,17 @@
         value="1"
         step="1"
       />
-      <p>
+      <p class="result">
         Income from the deposit at 5 percent per annum
         <span class="income-result"> not calculated yet ...</span>
       </p>
     </div>
 
     <div class="expression">
-      <h1>
+      <h2>
         If you want to know the result of futher expressions - click the button
         below
-      </h1>
+      </h2>
 
       <p>"2 && 0 && 3"<span class="first-result"> result is ...</span></p>
       <p>"2 || 0 || 3"<span class="second-result"> result is ...</span></p>

@@ -1,7 +1,8 @@
 let reversedNumber = (userNumber) => {
   let lastNumber;
   let resultNumber = "";
-  const invalidNumber = "the value entered is not a valid number.";
+  const invalidNumber =
+    "not available because the value entered is not a valid number.";
 
   if (userNumber > 0) {
     while (userNumber > 0) {

@@ -1,0 +1,87 @@
+@import "../scss/reset";
+@import "../scss/fonts";
+
+html {
+  @extend %fontfamily;
+
+  body {
+    user-select: none;
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 20rem;
+      height: 25rem;
+      padding: 1rem;
+      margin: 2rem 0;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      background-color: #f8f8f8;
+      box-shadow: 0.1rem 0.2rem 0.2rem #ccc;
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      p.result {
+        display: block;
+        text-align: left;
+        padding: 0 0.3rem;
+        background-color: #f0f0f0;
+        border-radius: 0.5rem;
+      }
+
+      ::placeholder {
+        color: #ccc;
+        padding: 0 0 0 0.1rem;
+      }
+
+      input {
+        padding: 0.3rem 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.2rem;
+        box-shadow: 0.1rem 0.1rem 0.1rem #ccc;
+      }
+
+      button {
+        color: inherit;
+        padding: 0.3rem 0;
+        border: 1px solid #000;
+        border-radius: 0.2rem;
+        background-color: #ccc;
+        box-shadow: 0.1rem 0.1rem 0.1rem #ccc;
+
+        &:hover {
+          background-color: darkgrey;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 62.5%;
+  }
+}
