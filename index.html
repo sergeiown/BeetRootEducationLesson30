@@ -34,7 +34,7 @@
         <input
           class="first-number"
           type="text"
-          placeholder="for example: 0.1"
+          placeholder="for example: 0.1 (use '.' separator)"
         />
       </p>
       <p>
@@ -42,12 +42,36 @@
         <input
           class="second-number"
           type="text"
-          placeholder="for example: 0.2"
+          placeholder="for example: 0.2 (use '.' separator)"
         />
       </p>
       <p class="result">
         The result of the addition is
         <span class="addition-result"> in progress ...</span>
+      </p>
+    </div>
+
+    <div class="files-quantity">
+      <h2>
+        Select the capacity of the flash drive to find out how many files on 850
+        MB you can store
+      </h2>
+      <p>
+        Flash drive capacity
+
+        <select class="flashdrive-capacity">
+          <option value="">--Please choose an option--</option>
+          <option value="4">4 GB</option>
+          <option value="16">16 GB</option>
+          <option value="64">64 GB</option>
+          <option value="128">128 GB</option>
+        </select>
+      </p>
+
+      <p class="result">
+        The number of 850 MB files that can be stored on the selected flash
+        drive is
+        <span class="files-result"> in progress ...</span>
       </p>
     </div>
 
