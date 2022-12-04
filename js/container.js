@@ -12,6 +12,15 @@ const additionTask = () => {
   ).innerHTML = `<span>${minimum.addition(firstNumber, secondNumber)}</span>`;
 };
 
+//files quantity
+const flashDrive = () => {
+  const capacity = Number(document.querySelector(".flashdrive-capacity").value);
+
+  document.querySelector(
+    ".files-result"
+  ).innerHTML = `<span>${minimum.flashDriveCapacity(capacity)}</span>`;
+};
+
 // reversed number
 const reversalTask = () => {
   const userNumber = Number(document.querySelector(".user-number").value);
@@ -65,6 +74,8 @@ const expressionResultInfo = () => {
 
 // events listeners
 document.querySelector(".addition").addEventListener("input", additionTask);
+
+document.querySelector(".files-quantity").addEventListener("input", flashDrive);
 
 document
   .querySelector(".reversed-number")
