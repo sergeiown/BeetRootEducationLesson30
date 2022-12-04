@@ -27,9 +27,11 @@ aside {
 
 input,
 select,
+option,
 button,
 textarea {
   font-family: inherit;
+  color: inherit;
 }
 button {
   background-color: transparent;
