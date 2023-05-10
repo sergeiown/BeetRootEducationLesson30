@@ -2,26 +2,28 @@
 
 **_LMS Beetroot Academy progress_**
 
-## ДОМАШНЄ ЗАВДАННЯ
+### TASKS
 
-**Мінімум**
+**Minimum**
 
-1. Виконай додавання 0,1 і 0,2 добийся математично правильної відповіді.
-2. Виконай додавання рядка "1" і цифри 2 (обидві операнди повинні бути в змінних), добийся математично правильної відповіді.
-3. Користувач вказує обсяг флешки в Гб. Програма повинна порахувати скільки файлів розміром в 820 Мб поміщається на флешку.
+1. Perform the addition of 0.1 and 0.2 to get a mathematically correct answer.
+2. Perform the addition of the string "1" and the digit 2 (both operands must be in variables), get a mathematically correct answer.
+3. The user specifies the size of the flash drive in GB. The program should calculate how many files of size 820 MB can be placed on the flash drive.
 
-**Норма**
+**Normal**
 
-1. Користувач вводить суму грошей в гаманці і ціну однієї шоколадки. Програма виводить скільки шоколадок може купити користувач і скільки здачі у нього залишиться.
-2. Запитай у користувача тризначне число і виведи його задом наперед. Для вирішення завдання тобі знадобиться оператор % (залишок від ділення).
+1. The user enters the amount of money in the wallet and the price of one chocolate bar. The program prints how many chocolates the user can buy and how much change he will have left.
+2. Ask the user for a three-digit number and print it backwards. To solve the problem, you will need the % operator (remainder of division).
 
-**Максимум**
+**Maximum**
 
-1. Користувач вводить суму вкладу в банк на 2 місяці, з процентною ставкою депозиту 5% річних. Вивести суму нарахованих відсотків.
-2. Що повернуть вирази:
+1. The user enters the amount of a deposit in the bank for 2 months, with an interest rate of 5% per annum. Print the amount of accrued interest.
+2. What will the expressions return:
 
    - 2 && 0 && 3
 
    - 2 || 0 || 3
 
    - 2 && 0 || 3
+
+![image](https://github.com/sergeiown/BeetRootEducationLesson30/assets/112722061/2965cf16-423c-4a8b-87e6-22c6abc5b82e)
